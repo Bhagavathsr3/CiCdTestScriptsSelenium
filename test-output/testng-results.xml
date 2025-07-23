@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-23T11:56:11 IST" name="Default suite" finished-at="2025-07-23T11:56:30 IST" duration-ms="18798">
+    <groups>
+    </groups>
+    <test started-at="2025-07-23T11:56:11 IST" name="Default test" finished-at="2025-07-23T11:56:30 IST" duration-ms="18798">
+      <class name="com.Conference.TestPage.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.HomeTest@323b36e0]" started-at="2025-07-23T11:56:11 IST" name="setup" finished-at="2025-07-23T11:56:29 IST" duration-ms="17929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickLogin()[pri:0, instance:com.Conference.TestPage.HomeTest@323b36e0]" started-at="2025-07-23T11:56:29 IST" name="clickLogin" finished-at="2025-07-23T11:56:30 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+      </class> <!-- com.Conference.TestPage.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
