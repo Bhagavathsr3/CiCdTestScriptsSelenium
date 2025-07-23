@@ -15,12 +15,11 @@
     <artifactId>webdrivermanager</artifactId>
     <version>6.1.1</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.9.0</version>
-    <scope>test</scope>
+    <version>7.11.0</version>
 </dependency>
-
   </dependencies>
 </project>

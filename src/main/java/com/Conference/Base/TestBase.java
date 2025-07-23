@@ -4,14 +4,13 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
-
 import com.Conference.ConfigReader.ConfigReader;
 import com.Conference.DriverFactory.DriverFactory;
 
 public class TestBase {
 	
   protected WebDriver driver;
-@BeforeClass  
+@BeforeClass
 	public void setup() throws IOException {
 		ConfigReader.loadConfig("prod");
 		DriverFactory.initDriver();
