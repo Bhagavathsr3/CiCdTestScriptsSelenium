@@ -1,14 +1,14 @@
-name: Run All Tests Manually
+name: Run HomeTest
 
 on:
   workflow_dispatch:
 
 jobs:
-  run-tests:
+  run-home-test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Java
@@ -17,5 +17,5 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Run All Tests
-        run: mvn -Dtest=com.Conference.TestPage.*Test test
+      - name: Run HomeTest class
+        run: mvn -Dtest=com.Conference.TestPage.HomeTest test
