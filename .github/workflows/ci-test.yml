@@ -1,7 +1,7 @@
-name: Run Tests Manually
+name: Run HomeTest Manually
 
 on:
-  workflow_dispatch:  # This enables manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   run-tests:
@@ -17,5 +17,5 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Build with Maven
-        run: mvn clean install
+      - name: Run HomeTest Class
+        run: mvn -Dtest=HomeTest test
