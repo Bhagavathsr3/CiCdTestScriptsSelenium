@@ -1,4 +1,4 @@
-name: Run HomeTest Manually
+name: Run All Tests Manually
 
 on:
   workflow_dispatch:
@@ -17,5 +17,5 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Run HomeTest Class
-        run: mvn -Dtest=HomeTest test
+      - name: Run All Tests
+        run: mvn test
