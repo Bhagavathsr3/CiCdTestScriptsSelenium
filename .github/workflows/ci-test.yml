@@ -1,14 +1,14 @@
-name: Run HomeTest Manually
+name: Run HomeTest
 
 on:
   workflow_dispatch:
 
 jobs:
-  run-tests:
+  run-home-test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Java
@@ -17,5 +17,12 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Run HomeTest Class
-        run: mvn -Dtest=HomeTest test
+      - name: Run HomeTest class
+        run: mvn -Dtest=com.Conference.TestPage.HomeTest test
+
+      - name: Upload Test Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-reports
+          path: target/surefire-reports
