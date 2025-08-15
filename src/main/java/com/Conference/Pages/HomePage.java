@@ -3,6 +3,7 @@ package com.Conference.Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class HomePage extends BasePage {
 
@@ -11,12 +12,16 @@ public class HomePage extends BasePage {
 	}
 
 	@FindBy(xpath = "//*[contains(text(), 'login')]")
- private WebElement loginTab;
+    private WebElement loginTab;
 	
 	@FindBy(xpath = "")
 	WebElement signUPTab;
 	
 	public void clickLogin() {
 		loginTab.click();
+	}
+	public void verifyTitle() {
+		String text = loginTab.getText();
+	    Assert.assertEquals(text, "LOGINN");
 	}
 }

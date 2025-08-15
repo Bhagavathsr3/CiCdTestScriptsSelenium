@@ -14,7 +14,9 @@ public class TestBase {
 	public void setup() throws IOException {
 		ConfigReader.loadConfig("prod");
 		DriverFactory.initDriver();
-		DriverFactory.getDriver().get(ConfigReader.getKeyValue("url"));;
 		driver = DriverFactory.getDriver();
+		driver.get(ConfigReader.getKeyValue("url"));
+	//	DriverFactory.getDriver().get(ConfigReader.getKeyValue("url"));;
+		
 	}
 }
