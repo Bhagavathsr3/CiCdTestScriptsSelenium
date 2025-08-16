@@ -23,5 +23,6 @@ public class HomePage extends BasePage {
 	public void verifyTitle() {
 		String text = loginTab.getText();
 	    Assert.assertEquals(text, "LOGINN");
+	    logger.info("Passed");
 	}
 }

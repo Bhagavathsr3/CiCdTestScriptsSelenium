@@ -1,5 +1,7 @@
 package com.Conference.TestPage;
 
+import java.lang.System.Logger;
+
 import org.testng.annotations.Test;
 
 import com.Conference.Base.TestBase;
@@ -11,5 +13,6 @@ public class HomeTest extends TestBase {
 		HomePage hp = new HomePage(driver);
 		hp.clickLogin();
 		//hp.verifyTitle();
+		hp.logger.info("Executed");
 	}
 }

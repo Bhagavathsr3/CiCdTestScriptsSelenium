@@ -9,7 +9,7 @@ import com.Conference.DriverFactory.DriverFactory;
 
 public class TestBase {
 	
-  protected WebDriver driver;
+  protected static WebDriver driver;
 @BeforeClass
 	public void setup() throws IOException {
 		ConfigReader.loadConfig("prod");
