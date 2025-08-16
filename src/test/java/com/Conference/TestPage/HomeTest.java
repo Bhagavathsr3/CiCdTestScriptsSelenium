@@ -11,8 +11,8 @@ public class HomeTest extends TestBase {
 @Test
 	public void clickLogin() {
 		HomePage hp = new HomePage(driver);
-		hp.clickLogin();
-		//hp.verifyTitle();
+		//hp.clickLogin();
+		hp.verifyTitle();
 		hp.logger.info("Executed");
 	}
 }
