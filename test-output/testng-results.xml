@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T23:12:38 IST" name="Default suite" finished-at="2025-09-14T23:12:56 IST" duration-ms="17918">
+  <suite started-at="2025-09-14T23:29:22 IST" name="Default suite" finished-at="2025-09-14T23:29:34 IST" duration-ms="11613">
     <groups>
     </groups>
-    <test started-at="2025-09-14T23:12:38 IST" name="Default test" finished-at="2025-09-14T23:12:56 IST" duration-ms="17918">
+    <test started-at="2025-09-14T23:29:22 IST" name="Default test" finished-at="2025-09-14T23:29:34 IST" duration-ms="11613">
       <class name="com.Conference.TestPage.HomeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.HomeTest@7ef82753]" started-at="2025-09-14T23:12:38 IST" name="setup" finished-at="2025-09-14T23:12:54 IST" duration-ms="16079" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.HomeTest@7ef82753]" started-at="2025-09-14T23:29:22 IST" name="setup" finished-at="2025-09-14T23:29:32 IST" duration-ms="9767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickLogin()[pri:0, instance:com.Conference.TestPage.HomeTest@7ef82753]" started-at="2025-09-14T23:12:54 IST" name="clickLogin" finished-at="2025-09-14T23:12:56 IST" duration-ms="1776" status="PASS">
+        <test-method signature="clickLogin()[pri:0, instance:com.Conference.TestPage.HomeTest@7ef82753]" started-at="2025-09-14T23:29:32 IST" name="clickLogin" finished-at="2025-09-14T23:29:34 IST" duration-ms="1783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogin -->
