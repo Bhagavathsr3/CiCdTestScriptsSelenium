@@ -1,7 +1,5 @@
 package com.Conference.TestPage;
 
-import java.lang.System.Logger;
-
 import org.testng.annotations.Test;
 
 import com.Conference.Base.TestBase;
