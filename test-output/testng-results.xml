@@ -1,62 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-16T14:44:34 IST" name="Default suite" finished-at="2025-08-16T14:44:38 IST" duration-ms="4145">
+  <suite started-at="2025-09-14T20:15:11 IST" name="Default suite" finished-at="2025-09-14T20:15:24 IST" duration-ms="12904">
     <groups>
     </groups>
-    <test started-at="2025-08-16T14:44:34 IST" name="Default test" finished-at="2025-08-16T14:44:38 IST" duration-ms="4145">
+    <test started-at="2025-09-14T20:15:11 IST" name="Default test" finished-at="2025-09-14T20:15:24 IST" duration-ms="12904">
       <class name="com.Conference.TestPage.HomeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.HomeTest@3b0fe47a]" started-at="2025-08-16T14:44:34 IST" name="setup" finished-at="2025-08-16T14:44:38 IST" duration-ms="3554" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.HomeTest@7ef82753]" started-at="2025-09-14T20:15:11 IST" name="setup" finished-at="2025-09-14T20:15:22 IST" duration-ms="11410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickLogin()[pri:0, instance:com.Conference.TestPage.HomeTest@3b0fe47a]" started-at="2025-08-16T14:44:38 IST" name="clickLogin" finished-at="2025-08-16T14:44:38 IST" duration-ms="548" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [LOGINN] but found [login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [LOGINN] but found [login]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.Conference.Pages.HomePage.verifyTitle(HomePage.java:25)
-at com.Conference.TestPage.HomeTest.clickLogin(HomeTest.java:15)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="clickLogin()[pri:0, instance:com.Conference.TestPage.HomeTest@7ef82753]" started-at="2025-09-14T20:15:22 IST" name="clickLogin" finished-at="2025-09-14T20:15:24 IST" duration-ms="1447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogin -->
