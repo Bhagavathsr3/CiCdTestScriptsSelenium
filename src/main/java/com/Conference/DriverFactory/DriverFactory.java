@@ -20,7 +20,7 @@ private static WebDriver tldriver;
 
              // Add headless options only for Linux (like in GitHub Actions)
              String os = System.getProperty("os.name").toLowerCase();
-             if (os.contains("linux")) {
+             if (os.contains("linux") || os.contains("unix")) {
                  options.addArguments("--headless=new");
                  options.addArguments("--no-sandbox");
                  options.addArguments("--disable-dev-shm-usage");
