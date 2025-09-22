@@ -1,0 +1,30 @@
+[33mc355558[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{0}: reset: moving to origin/master
+[33m28561e7[m HEAD@{1}: commit: FINAL
+[33m3317a75[m HEAD@{2}: reset: moving to HEAD
+[33m3317a75[m HEAD@{3}: reset: moving to HEAD
+[33m3317a75[m HEAD@{4}: commit: data driven
+[33m1e63459[m HEAD@{5}: commit: os config
+[33m125ca36[m HEAD@{6}: commit: xml updated
+[33mabfa59c[m HEAD@{7}: commit: xml updated
+[33m3034926[m HEAD@{8}: commit: dont know
+[33m4fb0c58[m HEAD@{9}: commit: xmll..
+[33m681e1b4[m HEAD@{10}: commit: url commit
+[33m8a73548[m HEAD@{11}: commit: Final Commit
+[33m93f92be[m HEAD@{12}: commit: new 01
+[33m1fd05ed[m HEAD@{13}: commit: New Today
+[33m091701d[m HEAD@{14}: commit: my commit
+[33mcec68fc[m HEAD@{15}: commit: new 01
+[33m5726909[m HEAD@{16}: pull origin master: Merge made by the 'ort' strategy.
+[33m48c403f[m HEAD@{17}: commit: new 0
+[33m142eaf2[m HEAD@{18}: commit (merge): Merge branch 'master' of https://github.com/Bhagavathsr3/CiCdTestScriptsSelenium
+[33m20fafa2[m HEAD@{19}: commit: Chrome options
+[33ma36178c[m HEAD@{20}: commit: Added surefire plugin for TestNG execution
+[33mcd64e75[m HEAD@{21}: commit: Removed build files from tracking
+[33m068a17c[m HEAD@{22}: commit: Added .gitignore to ignore build files
+[33m853fabc[m HEAD@{23}: pull --rebase origin master (finish): returning to refs/heads/master
+[33m853fabc[m HEAD@{24}: pull --rebase origin master (pick): initial commit
+[33m547f7ca[m HEAD@{25}: pull --rebase origin master (pick): second commit
+[33m2afebc8[m HEAD@{26}: pull --rebase origin master (start): checkout 2afebc8c03d85fce8da4812d9684e9d12243dad2
+[33m5c0f3ab[m HEAD@{27}: commit: initial commit
+[33m6c569dd[m HEAD@{28}: commit: second commit
+[33m162f906[m HEAD@{29}: commit (initial): initial commit
