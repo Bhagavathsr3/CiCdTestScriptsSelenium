@@ -27,6 +27,8 @@ private static WebDriver tldriver;
                  options.addArguments("--disable-gpu"); // Optional
                  options.addArguments("--window-size=1920,1080");
              }
+             System.out.println("OS Detected: " + os);
+             System.out.println("Running Chrome with options: " + options.toString());
 
              options.addArguments("--remote-allow-origins=*"); // Optional (for newer Chrome)
 

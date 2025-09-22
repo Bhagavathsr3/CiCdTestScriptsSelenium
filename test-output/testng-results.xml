@@ -1,21 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T23:29:22 IST" name="Default suite" finished-at="2025-09-14T23:29:34 IST" duration-ms="11613">
+  <suite started-at="2025-09-22T19:53:01 IST" name="Suite" finished-at="2025-09-22T19:53:41 IST" duration-ms="40159">
     <groups>
     </groups>
-    <test started-at="2025-09-14T23:29:22 IST" name="Default test" finished-at="2025-09-14T23:29:34 IST" duration-ms="11613">
-      <class name="com.Conference.TestPage.HomeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.HomeTest@7ef82753]" started-at="2025-09-14T23:29:22 IST" name="setup" finished-at="2025-09-14T23:29:32 IST" duration-ms="9767" status="PASS">
+    <test started-at="2025-09-22T19:53:01 IST" name="RegressionTest" finished-at="2025-09-22T19:53:41 IST" duration-ms="40159">
+      <class name="com.Conference.TestPage.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.LoginTest@353352b6]" started-at="2025-09-22T19:53:13 IST" name="setup" finished-at="2025-09-22T19:53:24 IST" duration-ms="10911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickLogin()[pri:0, instance:com.Conference.TestPage.HomeTest@7ef82753]" started-at="2025-09-14T23:29:32 IST" name="clickLogin" finished-at="2025-09-14T23:29:34 IST" duration-ms="1783" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Conference.TestPage.LoginTest@353352b6]" started-at="2025-09-22T19:53:25 IST" name="validLogin" description="Data-Driven Valid Login Test" data-provider="loginData" finished-at="2025-09-22T19:53:28 IST" duration-ms="2600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[42676.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Conference.TestPage.LoginTest@353352b6]" started-at="2025-09-22T19:53:28 IST" name="validLogin" description="Data-Driven Valid Login Test" data-provider="loginData" finished-at="2025-09-22T19:53:29 IST" duration-ms="1488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hihello@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tdhsfbs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Conference.TestPage.LoginTest@353352b6]" started-at="2025-09-22T19:53:29 IST" name="validLogin" description="Data-Driven Valid Login Test" data-provider="loginData" finished-at="2025-09-22T19:53:30 IST" duration-ms="1257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[welcome@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gs556]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Conference.TestPage.LoginTest@353352b6]" started-at="2025-09-22T19:53:30 IST" name="validLogin" description="Data-Driven Valid Login Test" data-provider="loginData" finished-at="2025-09-22T19:53:32 IST" duration-ms="1482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gwg57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- com.Conference.TestPage.LoginTest -->
+      <class name="com.Conference.TestPage.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.HomeTest@273444fe]" started-at="2025-09-22T19:53:02 IST" name="setup" finished-at="2025-09-22T19:53:11 IST" duration-ms="9587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickLogin()[pri:0, instance:com.Conference.TestPage.HomeTest@273444fe]" started-at="2025-09-22T19:53:12 IST" name="clickLogin" finished-at="2025-09-22T19:53:13 IST" duration-ms="1483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogin -->
       </class> <!-- com.Conference.TestPage.HomeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.Conference.TestPage.PaperSubmissionTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Conference.TestPage.PaperSubmissionTest@4681c175]" started-at="2025-09-22T19:53:32 IST" name="setup" finished-at="2025-09-22T19:53:40 IST" duration-ms="7886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openPaperSubmissionPage()[pri:1, instance:com.Conference.TestPage.PaperSubmissionTest@4681c175]" started-at="2025-09-22T19:53:40 IST" name="openPaperSubmissionPage" finished-at="2025-09-22T19:53:40 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPaperSubmissionPage -->
+        <test-method signature="fillpaperSubmissionForm()[pri:2, instance:com.Conference.TestPage.PaperSubmissionTest@4681c175]" started-at="2025-09-22T19:53:40 IST" name="fillpaperSubmissionForm" finished-at="2025-09-22T19:53:41 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillpaperSubmissionForm -->
+      </class> <!-- com.Conference.TestPage.PaperSubmissionTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Suite -->
 </testng-results>

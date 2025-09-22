@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Conference.TestPage.HomeTest">
+      <class name="com.Conference.TestPage.PaperSubmissionTest">
         <methods>
-          <include name="clickLogin"/>
+          <include name="openPaperSubmissionPage"/>
+          <include name="fillpaperSubmissionForm"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.Conference.TestPage.HomeTest -->
+      </class> <!-- com.Conference.TestPage.PaperSubmissionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -10,7 +10,7 @@ public class ConfigReader {
  private static Properties prop = new Properties();
 	public static void loadConfig(String env) throws IOException {
 		
-		File file = new File("src/test/resources/"+env+".properties");
+		File file = new File("src/main/resources/"+env+".properties");
 		
 		FileInputStream fileInputStream = new FileInputStream(file);
 		

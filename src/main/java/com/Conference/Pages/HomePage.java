@@ -12,17 +12,18 @@ public class HomePage extends BasePage {
 	}
 
 	@FindBy(xpath = "//*[contains(text(), 'login')]")
-    private WebElement loginTab;
-	
+	private WebElement loginTab;
+
 	@FindBy(xpath = "")
 	WebElement signUPTab;
-	
+
 	public void clickLogin() {
 		loginTab.click();
 	}
+
 	public void verifyTitle() {
 		String text = loginTab.getText();
-	    Assert.assertEquals(text, "LOGINN");
-	    logger.info("Passed");
+		Assert.assertEquals(text, "LOGINN");
+		logger.info("Passed");
 	}
 }

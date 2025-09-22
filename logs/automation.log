@@ -1,4 +1,22 @@
-14:34:03.495 [main] INFO  com.Conference.Pages.HomePage - Executed
-20:15:24.058 [main] INFO  com.Conference.Pages.HomePage - Executed
-23:12:56.650 [main] INFO  com.Conference.Pages.HomePage - Executed
-23:29:34.536 [main] INFO  com.Conference.Pages.HomePage - Executed
+19:53:13.484 [main] INFO  com.Conference.Pages.HomePage - Executed
+19:53:24.662 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:53:24.670 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+19:53:24.676 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+19:53:26.678 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
+19:53:27.572 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: hello@gmail.com
+19:53:27.773 [main] INFO  com.Conference.Pages.LoginPage - Entered password
+19:53:28.090 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: hello@gmail.com
+19:53:28.458 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
+19:53:29.204 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: hihello@gmail.com
+19:53:29.394 [main] INFO  com.Conference.Pages.LoginPage - Entered password
+19:53:29.582 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: hihello@gmail.com
+19:53:29.818 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
+19:53:30.530 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: welcome@gmail.com
+19:53:30.663 [main] INFO  com.Conference.Pages.LoginPage - Entered password
+19:53:30.844 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: welcome@gmail.com
+19:53:31.194 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
+19:53:31.907 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: dummy@gmail.com
+19:53:32.090 [main] INFO  com.Conference.Pages.LoginPage - Entered password
+19:53:32.329 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: dummy@gmail.com
+19:53:40.926 [main] INFO  com.Conference.Pages.PaperSubmissionPage - Paper submission Page Opened
+19:53:41.943 [main] INFO  com.Conference.Pages.PaperSubmissionPage - All details entered Successfully, the user details: Rocky rocky@gmail.com
