@@ -1,28 +1,22 @@
-20:08:13.210 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-20:08:13.227 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-20:08:13.231 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-20:08:30.072 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-20:08:30.088 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-20:08:30.092 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-20:11:10.981 [main] INFO  com.Conference.Pages.HomePage - Executed
-20:11:22.176 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-20:11:22.180 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-20:11:22.183 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-20:11:23.683 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
-20:11:24.396 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: hello@gmail.com
-20:11:24.545 [main] INFO  com.Conference.Pages.LoginPage - Entered password
-20:11:24.972 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: hello@gmail.com
-20:11:25.206 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
-20:11:25.931 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: hihello@gmail.com
-20:11:26.093 [main] INFO  com.Conference.Pages.LoginPage - Entered password
-20:11:26.273 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: hihello@gmail.com
-20:11:26.564 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
-20:11:27.232 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: welcome@gmail.com
-20:11:27.419 [main] INFO  com.Conference.Pages.LoginPage - Entered password
-20:11:27.559 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: welcome@gmail.com
-20:11:27.794 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
-20:11:28.501 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: dummy@gmail.com
-20:11:28.661 [main] INFO  com.Conference.Pages.LoginPage - Entered password
-20:11:28.890 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: dummy@gmail.com
-20:11:38.855 [main] INFO  com.Conference.Pages.PaperSubmissionPage - Paper submission Page Opened
-20:11:39.827 [main] INFO  com.Conference.Pages.PaperSubmissionPage - All details entered Successfully, the user details: Rocky rocky@gmail.com
+20:24:54.346 [main] INFO  com.Conference.Pages.HomePage - Executed
+20:25:03.427 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:25:03.429 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:25:03.432 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:25:05.176 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
+20:25:06.024 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: hello@gmail.com
+20:25:06.154 [main] INFO  com.Conference.Pages.LoginPage - Entered password
+20:25:06.623 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: hello@gmail.com
+20:25:06.948 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
+20:25:07.650 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: hihello@gmail.com
+20:25:07.804 [main] INFO  com.Conference.Pages.LoginPage - Entered password
+20:25:08.013 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: hihello@gmail.com
+20:25:08.364 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
+20:25:09.050 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: welcome@gmail.com
+20:25:09.182 [main] INFO  com.Conference.Pages.LoginPage - Entered password
+20:25:09.397 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: welcome@gmail.com
+20:25:09.687 [main] INFO  com.Conference.Pages.LoginPage - login form opened successfully
+20:25:10.355 [main] INFO  com.Conference.Pages.LoginPage - Entered Email: dummy@gmail.com
+20:25:10.471 [main] INFO  com.Conference.Pages.LoginPage - Entered password
+20:25:10.643 [main] INFO  com.Conference.Pages.LoginPage - Logged in Successfully with user: dummy@gmail.com
+20:25:20.776 [main] INFO  com.Conference.Pages.PaperSubmissionPage - Paper submission Page Opened
+20:25:21.578 [main] INFO  com.Conference.Pages.PaperSubmissionPage - All details entered Successfully, the user details: Rocky rocky@gmail.com
