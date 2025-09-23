@@ -14,7 +14,7 @@ This project demonstrates a *production-style CI/CD pipeline* built using *Jenki
 
 ## Automation folder structure
 
-CICD/
+.
 ├── src/
 │ ├── main/java/com/Conference/
 │ │ ├── Base/
