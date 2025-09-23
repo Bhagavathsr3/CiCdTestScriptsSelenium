@@ -11,7 +11,9 @@ This project demonstrates a *production-style CI/CD pipeline* built using *Jenki
 - Enforces *Quality Gates* → Deployment stops immediately if tests fail ❌.  
 - On passing tests ✅ → Deploys to *AWS EC2* via SSH, restarts *Nginx*, and serves the app live.  
 - *JUnit reports* integrated into Jenkins for visibility.  
+
 ## Automation folder structure
+
 CICD/
 ├── src/
 │ ├── main/java/com/Conference/
@@ -43,10 +45,7 @@ CICD/
 ├── screenshots/ # Screenshots captured on failures
 ├── pom.xml # Maven dependencies
 └── test-output/ # Default TestNG reports
-
-## 🔹 Challenge & Solution
-- *Challenge:* Pulling both repos initially caused Selenium scripts to *hang and crash* on a *t3.micro instance* due to resource limits.  
-- *Solution:* Migrated to a *c7i-flex.large* instance, enabling *stable execution and reliable deployments*.  
+  
 
 ## 🔹 Tech Stack
 - *CI/CD Tool:* Jenkins  
@@ -75,7 +74,7 @@ Clone this repo, set up Jenkins on an EC2 instance, and try connecting your own 
 ---
 
 ## 📌 Author
-👤 *Bhagavath Swangar*  
-QA Engineer | Aspiring SDET | Passionate about Automation & CI/CD  
+👤 *Bhagavath Shankar*  
+QA Engineer | SDET 
 
-📫 Connect on [LinkedIn](https://www.linkedin.com/) 
+📫 Connect on [LinkedIn](https://www.linkedin.com/in/bhagavath-shankar-625a792b9) 
