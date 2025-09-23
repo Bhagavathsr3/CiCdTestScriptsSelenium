@@ -14,25 +14,26 @@ This project demonstrates a *production-style CI/CD pipeline* built using *Jenki
 
 ## Automation folder structure
 
-CICD
-├── src
-│ ├── main/java/com/Conference
-│ │ ├── Base
-│ │ │ └── TestBase.java # Base setup/teardown for tests
-│ │ ├── ConfigReader.java # Reads environment properties
-│ │ ├── DriverFactory.java # WebDriver initialization & management
+```text
+CICD/
+├── src/
+│ ├── main/java/com/Conference/
+│ │ ├── Base/
+│ │ │── TestBase # Base setup/teardown for tests
+│ │ ├── ConfigReader # Reads environment properties
+│ │ ├── DriverFactory # WebDriver initialization & management
 │ │ ├── enums/ # Enum constants
 │ │ ├── listeners/ # TestNG Listeners (logging, reporting, etc.)
 │ │ ├── Pages/ # Page Object Model classes
 │ │ └── utils/ # Utilities (ExcelUtils, WaitUtils, LoggerUtils, etc.)
-│ ├── main/resources
+│ ├── main/resources/
 │ │ ├── prod.properties # Production environment config
 │ │ └── dev.properties # Development environment config
-│ └── test/java/com/Conference/TestPage
+│ └── test/java/com/Conference/TestPage/
 │ ├── LoginTest.java # Data-driven login tests
 │ ├── HomeTest.java # Home page validation tests
 │ └── PaperSubmissionTest.java # Paper submission workflow tests
-├── test/resources
+├── test/resources/
 │ └── suites/ # TestNG XML suite files
 ├── log4j2.xml # Log4j configuration
 ├── LoginTestData.xlsx # Test data for login
@@ -41,7 +42,7 @@ CICD
 ├── screenshots/ # Screenshots captured on failures
 ├── pom.xml # Maven dependencies
 └── test-output/ # Default TestNG reports
-  
+```
 
 ## 🔹 Tech Stack
 - *CI/CD Tool:* Jenkins  
