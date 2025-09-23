@@ -25,21 +25,17 @@ CICD/
 │ │ ├── listeners/ # TestNG Listeners (logging, reporting, etc.)
 │ │ ├── Pages/ # Page Object Model classes
 │ │ └── utils/ # Utilities (ExcelUtils, WaitUtils, LoggerUtils, etc.)
-│ │
 │ ├── main/resources/
 │ │ ├── prod.properties # Production environment config
 │ │ └── dev.properties # Development environment config
-│ │
-│ ├── test/java/com/Conference/TestPage/
-│ │ ├── LoginTest.java # Data-driven login tests
-│ │ ├── HomeTest.java # Home page validation tests
-│ │ └── PaperSubmissionTest.java # Paper submission workflow tests
-│ │
-│ └── test/resources/
-│ ├── suites/ # TestNG XML suite files
-│ ├── log4j2.xml # Log4j configuration
-│ └── LoginTestData.xlsx # Test data for login
-│
+│ └── test/java/com/Conference/TestPage/
+│ ├── LoginTest.java # Data-driven login tests
+│ ├── HomeTest.java # Home page validation tests
+│ └── PaperSubmissionTest.java # Paper submission workflow tests
+├── test/resources/
+│ └── suites/ # TestNG XML suite files
+├── log4j2.xml # Log4j configuration
+├── LoginTestData.xlsx # Test data for login
 ├── extentReports/ # Extent HTML reports
 ├── logs/ # Execution logs (automation.log, regression.xml, etc.)
 ├── screenshots/ # Screenshots captured on failures
