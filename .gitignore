@@ -1,1 +1,27 @@
-target/ 
+# Ignore build output
+/target/
+
+# Ignore IDE files (Eclipse, IntelliJ, VSCode)
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Ignore logs and reports
+*.log
+logs/
+extentReports/
+test-output/
+screenshots/
+
+# Ignore system/junk files
+et --hard*
+git
+*.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.swp
